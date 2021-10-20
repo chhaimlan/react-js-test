@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#input-style{   
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    height: 25px;
+    border: none;  
+}
+#input-style > input{   
+    display: inline-block;
+    width: 100%;
+    border-radius: 20px;
+    height: 25px;
+    background-color:white;
+    color: black; 
+    border: 2px solid red;
+       
+}
+#style-btn{   
+   
+     border-radius: 20px;
+     height: 31px;
+     background-color: #4CAF50;
+     margin-left: 8px;
+     color: white;
+     border: 1px solid lightsalmon;
+     cursor: pointer;
+    
+}
+#style-btn:hover{
+    background-color: #af6b4c;
+}
+
+
+#toggle-btn{
+    border-radius: 20px;
+     height: 40px;
+     background-color: #4faf4c;
+     margin-left: 8px;
+     color: white;
+     border: 1px solid lightsalmon;
+     font-size: 20px;
+     cursor: pointer;
+}
+#toggle-btn:hover{
+    background-color:#af6b4c ;
+}
+
+.flex-box{
+    display:inline-flex;
+}
+
+
+.icon-deleted {
+    display: inline-block;
+    position: relative;
+    
+  }
+  
+  .icon-deleted > i {
+    position: absolute;
+    flex-wrap: wrap;
+    right: 10px;   
+    margin-top: 5px;
+    cursor: pointer;    
+    
+   
+  }
+  .hidden{
+      display: none;
+      opacity: 25;
+      
+  }
+  .hidden:hover{
+      opacity: 100;
+      display: flex;
+      color: white;
+  }
+  
+  .icon-deleted  >img{     
+      width:  250px;
+      height: 250px;
+      padding: 5px;
+      cursor: pointer;      
+      border: 2px solid green;
+      
+  }
+  
+  #hide-class{
+      opacity: 25;
+      visibility: hidden;
+  }
+  #hide-class:hover{
+      opacity: 100;
+
+  }
+      
+  
+  .container-img{
+      display: inline-flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  
